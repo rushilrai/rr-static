@@ -1,16 +1,23 @@
 ---
 import "../config/index.css";
 
-console.log("rr-static")
+console.log("rr-static");
 ---
 
 <html data-theme="rr-theme" lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <noscript>
+      <div
+        class="fixed inset-0 z-50 flex items-center justify-center bg-base-200"
+      >
+        Rushil recommends JavaScript :)
+      </div>
+    </noscript>
   </head>
 
   <body>
-      <slot />
+    <slot />
   </body>
 </html>
